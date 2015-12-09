@@ -6,6 +6,8 @@ install:
 
 perl:
   - "5.20"
+  - "5.20-shrplib"
+  - "5.22"
 
 script:
   - perlbrew list
