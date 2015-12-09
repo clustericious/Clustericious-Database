@@ -1,6 +1,7 @@
 language: perl
 
 install:
+  - perlbrew list
   - dzil authordeps --missing | cpanm -n
   - dzil listdeps --missing | cpanm -n
 
@@ -9,7 +10,6 @@ perl:
   - "5.22"
 
 script:
-  - perlbrew list
   - dzil test -v
 
 sudo: false
