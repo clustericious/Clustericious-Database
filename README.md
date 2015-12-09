@@ -1,4 +1,4 @@
-# Clustericious::Database
+# Clustericious::Database [![Build Status](https://secure.travis-ci.org/clustericious/Clustericious-Database.png)](http://travis-ci.org/clustericious/Clustericious-Database)
 
 Handle database migrations for Clustericious applications
 
